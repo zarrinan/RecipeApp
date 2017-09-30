@@ -1,5 +1,5 @@
-<h1><%= @name %></h1>
-<p> Time of day: <%= @time %></p>
-<p>Recipe <%= @recipe%></p>
+<h1><%= @course.name %></h1>
+<p> Time of day: <%= @course.time_of_day %></p>
+<p>Recipe <%= @course.recipes %></p>
 
-
+<p> <%= link_to @course.recipes.name, recipes_path%> </p>
