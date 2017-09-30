@@ -15,11 +15,11 @@ dessert = Course.create!(name: 'Dessert', time_of_day: 'anytime')
 
 # Recipes
 
-potato_salad = Recipe.create!(title: 'Mashed Potato Salad With Scallions and Herbs', description: '(Never serve this cold; no one likes cold mashed potatoes.)', course: lunch)
-salmon = Recipe.create!(title: 'Salmon With Sesame and Herbs', description: 'The easy-to-memorize marinade for this fast broiled salmon hits all the right notes: salty, sweet and sour.', course: dinner)
-chicken_cucumbers = Recipe.create!(title: 'Grilled Chicken Breasts With Spicy Cucumbers', description: 'Light and refreshing, yet packed with flavor from herbs, jalapeños and garlic, this is an easy, after-work meal that can be endlessly adapted to suit what you’ve got on hand.', course: dinner)
-chicken_provencal = Recipe.create!(title: 'Roasted Chicken Provençal', description: 'It is a perfect dinner-party meal: chicken thighs or legs dusted in flour and roasted with shallots, lemons and garlic in a bath of vermouth and under a shower of herbes de Provence.', course: dinner)
-ice_cream_cake = Recipe.create!(title: 'Salty Peanut-Pretzel Ice Cream Cake', description: 'Grab a couple of quarts your favorite vanilla ice cream, crush up some peanuts and pretzels, and invite the neighborhood over for this sweet, salty, satisfying summer treat.', course: dessert)
+potato_salad = Recipe.create!(name: 'Mashed Potato Salad With Scallions and Herbs', description: '(Never serve this cold; no one likes cold mashed potatoes.)', course: lunch)
+salmon = Recipe.create!(name: 'Salmon With Sesame and Herbs', description: 'The easy-to-memorize marinade for this fast broiled salmon hits all the right notes: salty, sweet and sour.', course: dinner)
+chicken_cucumbers = Recipe.create!(name: 'Grilled Chicken Breasts With Spicy Cucumbers', description: 'Light and refreshing, yet packed with flavor from herbs, jalapeños and garlic, this is an easy, after-work meal that can be endlessly adapted to suit what you’ve got on hand.', course: dinner)
+chicken_provencal = Recipe.create!(name: 'Roasted Chicken Provençal', description: 'It is a perfect dinner-party meal: chicken thighs or legs dusted in flour and roasted with shallots, lemons and garlic in a bath of vermouth and under a shower of herbes de Provence.', course: dinner)
+ice_cream_cake = Recipe.create!(name: 'Salty Peanut-Pretzel Ice Cream Cake', description: 'Grab a couple of quarts your favorite vanilla ice cream, crush up some peanuts and pretzels, and invite the neighborhood over for this sweet, salty, satisfying summer treat.', course: dessert)
 
 
 # Ingredients
