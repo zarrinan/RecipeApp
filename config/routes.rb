@@ -5,6 +5,7 @@ resources :welcomes, only: [:index]
 resources :courses, only: [:index, :show]
 resources :recipes, only: [:index, :show]
 resources :ingredients, only: [:index]
+root 'welcomes#index'
 
 
 end
